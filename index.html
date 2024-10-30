@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Photo Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="#" data-filter="all">All</a></li>
+                <li><a href="#" data-filter="nature">Nature</a></li>
+                <li><a href="#" data-filter="city">City</a></li>
+                <li><a href="#" data-filter="people">People</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="gallery">
+        <div class="gallery-item nature">
+            <img src="nature1.jpg" alt="Nature 1">
+            <img src="nature2.jpg" alt="Nature 2">
+            <img src="nature3.jpg" alt="Nature 3">
+            <img src="nature4.jpg" alt="Nature 4">
+        </div>
+        <div class="gallery-item city">
+            <img src="city1.jpg" alt="City 1">
+            <img src="city2.jpg" alt="City 2">
+            <img src="city3.jpg" alt="City 3">
+            <img src="city4.jpg" alt="City 4">
+        </div>
+        <div class="gallery-item people">
+            <img src="people1.jpg" alt="People 1">
+            <img src="people2.jpg" alt="People 2">
+            <img src="people3.jpg" alt="People 3">
+            <img src="people4.jpg" alt="People 4">
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
